@@ -11,6 +11,40 @@
        margin-top: 100px;
 
     }
+
+    .main{
+        display: grid;
+        grid-template-rows: repeat(1, 1fr);
+    }
+
+    .categories-box{
+        
+       text-align: center;
+    }
+
+    .plants-container{
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+    }
+
+    .calculate-section{
+        width: 80%;
+    }
+
+    .about-campagin{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+    }
+    .title{
+        width: 100%;
+    }
+    .img{
+        align-items: center;
+    }
+    .p{
+        text-align: center;
+    }
 }
 
 

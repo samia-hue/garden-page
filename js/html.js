@@ -12,7 +12,6 @@ const plant = (category_name) => {
   let url = `https://openapi.programming-hero.com/api/plants/${category_name}`;
 
 
-
   fetch(url)
     .then((res) => res.json())
     .then((tree) => displayTrees(tree.plants));

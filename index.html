@@ -102,7 +102,7 @@
 
     <div class="mt-[50px] text-center"><h1 class="text-center text-xl font-bold">Choose Your Trees</h1></div>
     
-    <main class="w-11/12 mx-auto mt-[30px] flex gap-x-[30px]">
+    <main class="main w-11/12 mx-auto mt-[30px] flex gap-x-[0px]">
       
       <section class="categories-box mt-[40px]">
         <div id="categories-id" class="categories w-[250px] h-auto ">
@@ -120,7 +120,7 @@
 
       <section
         id="plants-container"
-        class="mt-[40px] grid grid-cols-3 gap-x-1 items-stretch space-y-1"
+        class="plants-container mt-[40px] grid grid-cols-3 gap-x-1 items-stretch space-y-1"
       >
         <div class="w-[250px] h-auto bg-white rounded-xl shadow-sm">
           <div
@@ -274,12 +274,57 @@
         </div>
       </section>
 
-      <section class="calculate-section border-2 border-red-500">
+      <section class="calculate-section  w-[15%]">
 
+        <h1>Your Cart</h1>
 
       </section>
     </main>
-    <footer></footer>
+
+    <section class=" w-11/12 mx-auto ">
+
+      <h1 class="text-xl font-bold text-center">
+        About the Campaign
+      </h1>
+
+      <div class=" about-campagin flex  justify-center items-center mt-3">
+        <div class="img">
+          <img src="./assets/about.png" alt="" class="h-[300px] w-[300px]">
+        </div>
+        <div class="title w-[500px] h-[188px] ml-4">
+          <p class="p">Green Earth is a global tree plantation initiative dedicated to fighting climate change. Since our start, we’ve planted over 500,000 trees worldwide. By joining our campaign, you help restore forests, create habitats for wildlife, and combat global warming.</p> <br>
+          <ul>
+            <li>Restoration of natural habitats</li>
+            <li>Improvement of air quality</li>
+            <li>Support for local communities</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <section class="bg-[#CFF0DC] min-h-[150px]  ">
+        <h1 class="text-xl font-bold text-center mt-4">Our Impact</h1>
+
+        <div class="flex justify-around items-center p-4">
+          <div class="rounded-xl h-[50px] w-[200px] bg-white text-center">
+            <h1 class="text-xl text-[#15803D]">500K+</h1>
+            <p class="text-xs">Trees Planted</p>
+          </div>
+          <div class="rounded-xl h-[50px] w-[200px] bg-white text-center">
+            <h1 class="text-xl text-[#15803D]">120+</h1>
+            <p class="text-xs">Communities Involved</p>
+          </div>
+          <div class="rounded-xl h-[50px] w-[200px] bg-white text-center">
+            <h1 class="text-xl text-[#15803D]">30+</h1>
+            <p class="text-xs">Countries Reached</p>
+          </div>
+          
+        </div>
+      </section>
+
+      
+
+    </footer>
 
     <script src="./js/html.js"></script>
   </body>
