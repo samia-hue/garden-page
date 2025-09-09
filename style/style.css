@@ -34,11 +34,13 @@
     .about-campagin{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        align-items: center;
+        
+        place-items: center;
     }
     .title{
         width: 100%;
         height: auto;
+        place-items: center;
     }
     .img{
         align-items: center;
@@ -51,6 +53,7 @@
         display: grid;
         grid-template-columns: repeat(1 , 1fr);
         row-gap: 10px;
+        place-items: center;
     }
 
     .form{
